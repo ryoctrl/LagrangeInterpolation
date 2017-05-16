@@ -43,18 +43,15 @@ public class Datas {
 			ret += x;
 		}
 
-
-		ret = 1.01884738;
-		System.out.println(round(ret, digit));
-		return round(ret, digit);
+		return ret;
 	}
 
-	private double round(double x, int digit){
-
-
-		double tmp = 5;
-		for(int i = 0; i <= digit; i++) tmp /= 10;
-
-		return x + tmp;
-	}
+//	private double round(double x, int digit){
+//
+//
+//		double tmp = 5;
+//		for(int i = 0; i <= digit; i++) tmp /= 10;
+//
+//		return x + tmp;
+//	}
 }
